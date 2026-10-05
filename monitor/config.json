@@ -1,0 +1,27 @@
+{
+  "calibrated": false,
+  "serial": {
+    "port": "auto",
+    "baud": 115200
+  },
+  "octoprint": {
+    "url": "http://localhost:5000",
+    "api_key": "",
+    "poll_s": 2.0
+  },
+  "gating": {
+    "min_hotend_c": 190,
+    "grace_s": 45
+  },
+  "detection": {
+    "spike_peak_g": 2.0,
+    "spike_windows": 1,
+    "drift_rms_g": 0.3,
+    "drift_windows": 6
+  },
+  "min_samples_per_window": 100,
+  "sensor_timeout_s": 10,
+  "on_sensor_loss": "pause",
+  "action": "pause",
+  "log_dir": "logs"
+}
